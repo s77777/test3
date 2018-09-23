@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Datele de utilizator',
+  'TextLogo' => 'Test',
+  'Headr' => 'Datele de utilizator',
+  'email' => 'Adresa de e-mail',
+  'fname' => 'Numele',
+  'lname' => 'Numele dumneavoastră',
+  'age' => 'Varsta ta',
+  'sex' => 'Sexul',
+  'foto' => 'Fotografia',
+  'man' => 'Android',
+  'woman' => 'Feminin',
+  'non' => '--',
+  'error' => 'Pagina pe care le solicita nu există',
+  'gohome' => 'Pe pagina de start',
+  'nofoto' => 'Nici o fotografie',
+  'filenotsel' => 'Fișierul nu a fost selectat',
+  'uploadfile' => 'Incarca o fotografie',
+  'save' => 'Scrie',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Fals permis de fișiere',
+    'errorScript' => 'Eroare de program',
+    'errorRequest' => 'Eroare De Interogare',
+    'Age' => 'Eroare, nu este de varsta',
+  ),
+);

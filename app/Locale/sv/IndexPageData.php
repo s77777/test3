@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Användardata',
+  'TextLogo' => 'Test',
+  'Headr' => 'Användardata',
+  'email' => 'E-post adress',
+  'fname' => 'Ditt namn',
+  'lname' => 'Ditt namn',
+  'age' => 'Din ålder',
+  'sex' => 'Ditt golv',
+  'foto' => 'Ditt Foto',
+  'man' => 'Män',
+  'woman' => 'Kvinnor',
+  'non' => '--',
+  'error' => 'Sidan du efterfrågar finns inte',
+  'gohome' => 'På den främsta sidan',
+  'nofoto' => 'Inga foton',
+  'filenotsel' => 'Fil är inte vald',
+  'uploadfile' => 'Ladda upp foton',
+  'save' => 'Registrera',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Fel fil tillstånd',
+    'errorScript' => 'Fel',
+    'errorRequest' => 'Begäran Fel',
+    'Age' => 'Fel, inte rätt ålder',
+  ),
+);

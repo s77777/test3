@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Les données de l\'utilisateur',
+  'TextLogo' => 'Le test',
+  'Headr' => 'Les données de l\'utilisateur',
+  'email' => 'Adresse e-mail',
+  'fname' => 'Votre nom',
+  'lname' => 'Votre nom de famille',
+  'age' => 'Votre âge',
+  'sex' => 'Votre plancher',
+  'foto' => 'Votre Photo',
+  'man' => 'Hommes',
+  'woman' => 'Femme',
+  'non' => '--',
+  'error' => 'La page que vous demandez n\'existe pas',
+  'gohome' => 'Sur la page d\'accueil',
+  'nofoto' => 'Pas de photo',
+  'filenotsel' => 'Le fichier n\'est sélectionné',
+  'uploadfile' => 'Télécharger la photo',
+  'save' => 'Enregistrer',
+  'errorjs' => 
+  array (
+    'fExtError' => 'La résolution du fichier est incorrect',
+    'errorScript' => 'Erreur de programme',
+    'errorRequest' => 'Erreur Dans La Requête',
+    'Age' => 'L\'erreur n\'est pas fidèle à l\'âge',
+  ),
+);

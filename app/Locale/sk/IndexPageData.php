@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Užívateľské dáta',
+  'TextLogo' => 'Test',
+  'Headr' => 'Užívateľské dáta',
+  'email' => 'E-mailová adresa',
+  'fname' => 'Vaše meno',
+  'lname' => 'Vaše meno',
+  'age' => 'Váš vek',
+  'sex' => 'Poschodia',
+  'foto' => 'Foto',
+  'man' => 'Pánske',
+  'woman' => 'Dámske',
+  'non' => '--',
+  'error' => 'Stránka, ktorú požadujete neexistuje',
+  'gohome' => 'Na hlavnej stránke',
+  'nofoto' => 'Žiadne fotografie',
+  'filenotsel' => 'Súbor nie je vybraný',
+  'uploadfile' => 'Nahrávanie fotografií',
+  'save' => 'Záznam',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Nesprávny súbor povolenie',
+    'errorScript' => 'Chyba',
+    'errorRequest' => 'Žiadosť Chyba',
+    'Age' => 'Chyba, nie je správny vek',
+  ),
+);

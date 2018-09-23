@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Felhasználó adatok',
+  'TextLogo' => 'Teszt',
+  'Headr' => 'Felhasználó adatok',
+  'email' => 'E-mail cím',
+  'fname' => 'Az ön neve',
+  'lname' => 'Az ön neve',
+  'age' => 'A kor',
+  'sex' => 'A padlón',
+  'foto' => 'A Fotó',
+  'man' => 'Férfi',
+  'woman' => 'Nők',
+  'non' => '--',
+  'error' => 'Az oldal kérő nem létezik',
+  'gohome' => 'A fő oldal',
+  'nofoto' => 'Nincsenek képek',
+  'filenotsel' => 'A fájl nem kijelölt',
+  'uploadfile' => 'Feltölteni a képeket',
+  'save' => 'Rekord',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Rossz fájl engedélyt',
+    'errorScript' => 'Hiba',
+    'errorRequest' => 'Kérelem Hiba',
+    'Age' => 'Hiba, nem megfelelő életkor',
+  ),
+);

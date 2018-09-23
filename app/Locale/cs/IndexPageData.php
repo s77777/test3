@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Data uživatele',
+  'TextLogo' => 'Test',
+  'Headr' => 'Data uživatele',
+  'email' => 'E-mailovou adresu',
+  'fname' => 'Vaše jméno',
+  'lname' => 'Vaše příjmení',
+  'age' => 'Váš věk',
+  'sex' => 'Vaše podlaha',
+  'foto' => 'Vaše Fotografie',
+  'man' => 'Pánské',
+  'woman' => 'Ženský',
+  'non' => '--',
+  'error' => 'Stránka kterou požadujete neexistuje',
+  'gohome' => 'Na hlavní stránku',
+  'nofoto' => 'Žádné fotky',
+  'filenotsel' => 'Soubor nebyl vybrán',
+  'uploadfile' => 'Nahrát fotografie',
+  'save' => 'Vypálit',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Špatné rozlišení souboru',
+    'errorScript' => 'Chyba programu',
+    'errorRequest' => 'Chyba Požadavku',
+    'Age' => 'Chyba, není pravý věk',
+  ),
+);

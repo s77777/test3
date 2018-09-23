@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Käyttäjän tiedot',
+  'TextLogo' => 'Testi',
+  'Headr' => 'Käyttäjän tiedot',
+  'email' => 'E-mail-osoite',
+  'fname' => 'Nimesi',
+  'lname' => 'Nimesi',
+  'age' => 'Ikäsi',
+  'sex' => 'Lattia',
+  'foto' => 'Valokuva',
+  'man' => 'Miesten',
+  'woman' => 'Naisten',
+  'non' => '--',
+  'error' => 'Sivun pyydät ei ole olemassa',
+  'gohome' => 'Pääsivulla',
+  'nofoto' => 'Ei kuvia',
+  'filenotsel' => 'Tiedostoa ei ole valittu',
+  'uploadfile' => 'Ladata kuvia',
+  'save' => 'Ennätys',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Väärän tiedoston lupaa',
+    'errorScript' => 'Virhe',
+    'errorRequest' => 'Pyyntö Virhe',
+    'Age' => 'Virhe, ei oikea ikä',
+  ),
+);

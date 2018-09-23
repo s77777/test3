@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Les dades de l\'usuari',
+  'TextLogo' => 'Prova',
+  'Headr' => 'Les dades de l\'usuari',
+  'email' => 'Adreça de correu electrònic',
+  'fname' => 'El teu nom',
+  'lname' => 'El teu nom',
+  'age' => 'A la teva edat',
+  'sex' => 'Planta',
+  'foto' => 'La Teva Foto',
+  'man' => 'Homes',
+  'woman' => 'Les dones',
+  'non' => '--',
+  'error' => 'La pàgina que vostè està sol · licitant no existeix',
+  'gohome' => 'A la pàgina principal',
+  'nofoto' => 'No hi ha fotos',
+  'filenotsel' => 'El fitxer no està seleccionada',
+  'uploadfile' => 'Penjar fotos',
+  'save' => 'Rècord',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Malament permís de fitxer',
+    'errorScript' => 'Error',
+    'errorRequest' => 'Sol·licitud D\'Error',
+    'Age' => 'Error, no és correcte edat',
+  ),
+);

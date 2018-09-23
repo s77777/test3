@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Kullanıcı verileri',
+  'TextLogo' => 'Test',
+  'Headr' => 'Kullanıcı verileri',
+  'email' => 'E-posta adresi',
+  'fname' => 'Adınızı',
+  'lname' => 'Soyadınız',
+  'age' => 'Yaşınız',
+  'sex' => 'Cinsiyet',
+  'foto' => 'Fotoğraf',
+  'man' => 'Erkek',
+  'woman' => 'Kadın',
+  'non' => '--',
+  'error' => 'Sayfa istemiş olduğunuz yok',
+  'gohome' => 'Ana sayfa',
+  'nofoto' => 'Fotoğraf yok',
+  'filenotsel' => 'Seçili dosya yok',
+  'uploadfile' => 'Fotoğraf yükle',
+  'save' => 'Yazmak',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Yanlış bir çözünürlük dosya',
+    'errorScript' => 'Program hatası',
+    'errorRequest' => 'Hata Sorgu',
+    'Age' => 'Hata değil, sadık bir yaş',
+  ),
+);

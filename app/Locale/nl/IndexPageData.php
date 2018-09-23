@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Gebruikers-gegevens',
+  'TextLogo' => 'Test',
+  'Headr' => 'Gebruikers-gegevens',
+  'email' => 'E-mail adres',
+  'fname' => 'Uw naam',
+  'lname' => 'Uw naam',
+  'age' => 'Uw leeftijd',
+  'sex' => 'Uw vloer',
+  'foto' => 'Uw Foto',
+  'man' => 'Heren',
+  'woman' => 'Vrouwen',
+  'non' => '--',
+  'error' => 'De pagina die u opvraagt bestaat niet',
+  'gohome' => 'Op de hoofdpagina',
+  'nofoto' => 'Geen foto \' s',
+  'filenotsel' => 'Het bestand is niet geselecteerd',
+  'uploadfile' => 'Upload foto \' s',
+  'save' => 'Record',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Verkeerde bestand toestemming',
+    'errorScript' => 'Fout',
+    'errorRequest' => 'Verzoek Fout',
+    'Age' => 'Fout, niet de juiste leeftijd',
+  ),
+);

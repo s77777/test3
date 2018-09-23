@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Podaci o korisniku',
+  'TextLogo' => 'Test',
+  'Headr' => 'Podaci o korisniku',
+  'email' => 'Adresa e-pošte',
+  'fname' => 'Vaše ime',
+  'lname' => 'Vaše prezime',
+  'age' => 'Vaša dob',
+  'sex' => 'Vaš spol',
+  'foto' => 'Vaše Fotografije',
+  'man' => 'Muško',
+  'woman' => 'Ženski',
+  'non' => '--',
+  'error' => 'Stranica koju tražite ne postoji',
+  'gohome' => 'Na početnu stranicu',
+  'nofoto' => 'Nema fotografije',
+  'filenotsel' => 'Datoteka nije odabrana',
+  'uploadfile' => 'Upload slika',
+  'save' => 'Napiši',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Neispravno dozvolu datoteke',
+    'errorScript' => 'Greška program',
+    'errorRequest' => 'Greška Upita',
+    'Age' => 'Greška, nije siguran dob',
+  ),
+);

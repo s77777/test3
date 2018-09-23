@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'İstifadəçi məlumatları',
+  'TextLogo' => 'Test',
+  'Headr' => 'İstifadəçi məlumatları',
+  'email' => 'E-poçt',
+  'fname' => 'Adı',
+  'lname' => 'Sizin soyadı',
+  'age' => 'Sizin yaş',
+  'sex' => 'Sizin cinsi',
+  'foto' => 'Sizin Foto',
+  'man' => 'Kişi',
+  'woman' => 'Qadın',
+  'non' => '--',
+  'error' => 'Səhifə olduğunuz sorğu yoxdur',
+  'gohome' => 'Ana səhifə',
+  'nofoto' => 'Yoxdur foto',
+  'filenotsel' => 'Fayl seçilmiş deyil',
+  'uploadfile' => 'Foto',
+  'save' => 'Qeyd',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Yanlış qətnamə fayl',
+    'errorScript' => 'Səhv proqramları',
+    'errorRequest' => 'Səhv Sorğu',
+    'Age' => 'Səhv, doğru yaşı',
+  ),
+);

@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'User data',
+  'TextLogo' => 'Test',
+  'Headr' => 'User data',
+  'email' => 'E-mail address',
+  'fname' => 'Your name',
+  'lname' => 'Your name',
+  'age' => 'Your age',
+  'sex' => 'Your floor',
+  'foto' => 'Your Photo',
+  'man' => 'Men\'s',
+  'woman' => 'Women\'s',
+  'non' => '--',
+  'error' => 'The page you are requesting does not exist',
+  'gohome' => 'On the main page',
+  'nofoto' => 'No photos',
+  'filenotsel' => 'The file is not selected',
+  'uploadfile' => 'Upload photos',
+  'save' => 'Record',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Wrong file permission',
+    'errorScript' => 'Error',
+    'errorRequest' => 'Request Error',
+    'Age' => 'Error, not correct age',
+  ),
+);

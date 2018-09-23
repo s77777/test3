@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Të dhënat e përdoruesit',
+  'TextLogo' => 'Test',
+  'Headr' => 'Të dhënat e përdoruesit',
+  'email' => 'E-mail adresa',
+  'fname' => 'Emri juaj',
+  'lname' => 'Emri juaj',
+  'age' => 'Mosha juaj',
+  'sex' => 'Kat tuaj',
+  'foto' => 'Photo Tuaj',
+  'man' => 'Meshkuj',
+  'woman' => 'Të grave',
+  'non' => '--',
+  'error' => 'Faqja që ju janë kërkuar nuk ekziston',
+  'gohome' => 'Në faqen kryesore',
+  'nofoto' => 'Nuk fotot',
+  'filenotsel' => 'File nuk është zgjedhur',
+  'uploadfile' => 'Ngarkoni fotot',
+  'save' => 'Rekord',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Fotografi të gabuar leje',
+    'errorScript' => 'Gabim',
+    'errorRequest' => 'Kërkojnë Gabim',
+    'Age' => 'Gabim, nuk saktë mosha',
+  ),
+);

@@ -1,0 +1,27 @@
+<?php return array (
+  'Title' => 'Lietotāja dati',
+  'TextLogo' => 'Tests',
+  'Headr' => 'Lietotāja dati',
+  'email' => 'E-pasta adrese',
+  'fname' => 'Jūsu vārds',
+  'lname' => 'Jūsu vārds',
+  'age' => 'Jūsu vecums',
+  'sex' => 'Jūsu grīda',
+  'foto' => 'Jūsu Foto',
+  'man' => 'Vīriešu',
+  'woman' => 'Sieviešu',
+  'non' => '--',
+  'error' => 'Lapa, kuru jūs pieprasāt nav',
+  'gohome' => 'Uz sākumlapu',
+  'nofoto' => 'Nav fotogrāfiju',
+  'filenotsel' => 'Fails nav izvēlēts',
+  'uploadfile' => 'Lejupielādēt foto',
+  'save' => 'Ierakstīt',
+  'errorjs' => 
+  array (
+    'fExtError' => 'Nepareizs faila atļauja',
+    'errorScript' => 'Kļūda programmas',
+    'errorRequest' => 'Pieprasījuma Kļūda',
+    'Age' => 'Kļūda, nav pareizs vecums',
+  ),
+);
