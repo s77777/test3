@@ -26,7 +26,7 @@
           <label><?php echo $PageData['psw2'];?></label>
           <input type="password" name="psw2" class="form-control" required placeholder="<?php echo $PageData['psw2'];?>">
         </div>
-          <button type="submit" disabled="disabled" class="btn btn-primary"><?php echo $PageData['register'];?></button>
+          <button type="button" class="btn btn-primary"><?php echo $PageData['register'];?></button>
       </form>
     </div>
   </div>

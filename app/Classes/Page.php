@@ -22,6 +22,7 @@ class Page {
         $this->params=$params;
         $this->args=$this->getUri();
         $this->lang=$this->args['lang'];
+        if (!$this->is_session_started()) session_start();
         $this->isLogin();
     }
 
@@ -36,7 +37,7 @@ class Page {
             if ($Class->GetViewTemplate()){
                 $PageData=$Class->getPageData();
                 $PageData['fLang']=include(APP_PATH_LOCALE.'lang.php');
-                $PageData['Class'] =  $this->Class;
+                $PageData['Class']= $this->Class;
                 $PageData['method']=$this->method;
                 require_once $this->view.$this->Class.'/'.$this->method.'.tpl';
             } else {
@@ -139,30 +140,22 @@ class Page {
         } else if (empty($_SESSION['secret'])) {
             $this->args['class']='Auth';
             $this->args['method']='loginform';
-        } else {
+        } else if ($_SESSION['secret']!=md5('$21@a0'.$_COOKIE['PHPSESSID'])) {
+            $this->args['class']='Auth';
+            $this->args['method']='loginform';
+        }
+        else {
             return true;
         }
     }
 
-    function getNameToken($name)
+    function is_session_started()
     {
-      	$token = md5(uniqid(microtime(), true));
-      	$_SESSION[$name] = $token;
-       	return $token;
+        return session_status() === PHP_SESSION_ACTIVE ? true : false;
     }
 
-    function validNameToken($name)
-    {
-        if(empty($_SESSION[$name])) {
-            return false;
-        }
-        if(empty($_POST[$name])) {
-            return false;
-        }
-        if ($_SESSION[$name] !== $_POST[$name]) {
-            return false;
-        }
-        return true;
+    function SessionStart() {
+        $params = session_get_cookie_params();
+        setcookie("PHPSESSID", session_id(), 0, $params["path"], $params["domain"], false, true );
     }
-
 }

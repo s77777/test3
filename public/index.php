@@ -10,9 +10,6 @@ else
 }
 try
 {
-    session_start();
-    $params = session_get_cookie_params();
-    setcookie("PHPSESSID", session_id(), 0, $params["path"], $params["domain"], false, true );
     define('APP_PATH', realpath('..') . '/');
     define('APP_PATH_CONF', APP_PATH . 'app/Config/');
     define('APP_PATH_CLASSES', APP_PATH . 'app/Classes/');

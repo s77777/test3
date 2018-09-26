@@ -9,8 +9,8 @@ class Index extends Page {
     {
         $this->IndexPageData=$this->getClassData(get_class($this));
         $id=$this->getParams()[0];
-        if (!empty($id)) $this->IndexPageData['data']= $this->getDataUser($id);
-        $this->IndexPageData['index_token']=$this->getNameToken('index_token');
+        if (empty($id)) $id=$_SESSION['id'];
+        $this->IndexPageData['data']= $this->getDataUser($id);
         $this->initPageData($this->IndexPageData);
     }
 

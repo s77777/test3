@@ -1,12 +1,9 @@
 document.addEventListener('DOMContentLoaded',function(){
-    let f=d.forms[0];
-    let email=f.email;
-    let psw=f.psw;
-    let psw2=f.psw2;
-    psw2.addEventListener('blur',function(){
-        if (psw.value.toUpperCase()===psw2.value.toUpperCase()) {
-           let button=f.querySelector('[type=submit]');
-           button.disabled='';
+    let button=d.forms[0].querySelector('[type=button]');
+    button.addEventListener('click',function(){
+        let f=d.forms[0];
+        if (f.psw.value.toUpperCase()===f.psw2.value.toUpperCase()) {
+            f.submit();
         } else {
            alert(arrMsg.psw);
            psw.focus();

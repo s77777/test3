@@ -3,7 +3,6 @@
 <head>
 <title><?php echo $PageData['Title'];?></title>
 <?php include_once(APP_PATH_VIEWS .'HeadMeta.tpl');?>
-<meta http-equiv="Cache-Control" content="no-cache" />
 </head>
 <body>
 <?php include_once(APP_PATH_VIEWS .'Headr.tpl');?>
@@ -17,7 +16,6 @@
           <label><?php echo $PageData['email'];?></label>
           <input type="email" name="email" class="form-control" required placeholder="<?php echo $PageData['pemail'];?>">
         </div>
-          <input type="hidden" name="loginform_token" value="<?php echo $PageData['loginform_token'];?>">
         <div class="form-group">
           <label><?php echo $PageData['psw'];?></label>
           <input type="password" name="psw" class="form-control" required placeholder="<?php echo $PageData['psw'];?>">
