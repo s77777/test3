@@ -39,6 +39,7 @@ class Page {
                 $PageData['fLang']=include(APP_PATH_LOCALE.'lang.php');
                 $PageData['Class']= $this->Class;
                 $PageData['method']=$this->method;
+                $PageData['Main']=include($this->LangPath.$this->lang.'/Main.php');
                 require_once $this->view.$this->Class.'/'.$this->method.'.tpl';
             } else {
                 header('Content-Type:application/json');
@@ -157,5 +158,10 @@ class Page {
     function SessionStart() {
         $params = session_get_cookie_params();
         setcookie("PHPSESSID", session_id(), 0, $params["path"], $params["domain"], false, true );
+    }
+
+    function SessionDestroy()
+    {
+        session_destroy();
     }
 }

@@ -62,6 +62,13 @@ class Auth extends Page {
         }
     }
 
+    function logout()
+    {
+        $this->SetViewDisable();
+        $this->SessionDestroy();
+        header('Location:'.SERVER_NAME.'/'.LANG);
+    }
+
     private function validUser($data)
     {
         $data['psw']=hash('sha256',$data['psw']);
