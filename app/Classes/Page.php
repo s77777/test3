@@ -62,7 +62,7 @@ class Page {
         $uriParts = explode('/', trim($uri, '/\\'));
         $params = array_slice($uriParts, 3);
         return array(
-                    'lang'=>(empty($uriParts[0]))?'':$uriParts[0],
+                    'lang'=>(!file_exists(APP_PATH . 'app/Locale/'.$uriParts[0]))?getLang():$uriParts[0],
                     'class' => (empty($uriParts[1]))?'Index':$uriParts[1],
                     'method' => (!empty($uriParts[2]))?$uriParts[2]:'initialize',
                     'params' => (!empty($params))?$params:null,
